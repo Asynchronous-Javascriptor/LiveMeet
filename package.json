@@ -1,0 +1,17 @@
+{
+    "name": "live-class-app",
+    "version": "1.0.0",
+    "description": "Full-stack MERN live class app deployment root",
+    "scripts": {
+        "start": "npm start --prefix server",
+        "dev": "concurrently \"npm run dev --prefix server\" \"npm start --prefix client\"",
+        "build": "npm install --prefix client && npm run build --prefix client && npm install --prefix server",
+        "server": "npm start --prefix server",
+        "client": "npm start --prefix client"
+    },
+    "dependencies": {
+        "concurrently": "^9.1.2"
+    },
+    "author": "",
+    "license": "ISC"
+}
