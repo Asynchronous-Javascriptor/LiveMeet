@@ -41,16 +41,16 @@ export const ZEGO_CONFIG = {
  */
 export const APP_CONFIG = {
   // Brand Information
-  APP_NAME: 'Live Classes',
+  APP_NAME: 'Live Meet',
   APP_DESCRIPTION: 'Connect, learn, and grow together with our live class platform. Host or join interactive sessions with HD video, real-time chat, and seamless collaboration.',
   APP_TAGLINE: 'Connect, Learn, Grow Together',
   
   // Social Media Links
   SOCIAL_LINKS: {
-    GITHUB: 'https://github.com',
+    GITHUB: 'https://github.com/Asynchronous-Javascriptor',
     TWITTER: 'https://twitter.com',
-    LINKEDIN: 'https://linkedin.com',
-    EMAIL: 'mailto:support@liveclasses.com',
+    LINKEDIN: 'https://www.linkedin.com/in/himanshu-papola-5bb932257/',
+    EMAIL: 'mailto:papolahimanshu5402@gmail.com',
   },
   
   // Footer Links
